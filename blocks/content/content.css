@@ -1,0 +1,8 @@
+.content {
+    max-width: 708px;
+    display: flex;
+    flex-direction: column;
+    margin: 42px auto 26px;
+    background-color: #000;;
+    row-gap: 34px;
+}

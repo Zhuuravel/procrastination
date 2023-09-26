@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>proctastination</title>
+    <link rel="shortcut icon" href="images/list.png"/>
+    <link rel="stylesheet" href="pages/index.css"/>
+</head>
+<body class="root">
+    <header>
+        <h1>Procrastination list</h1>
+    </header>
+    <main class="content">
+        <form class="todo__form">
+            <label for="input-todo" class="todo__form-field">
+                <input type="text" class="todo__input" id="input-todo" name="todo" placeholder="Следующее дело..." required>
+                <span class="todo__input-error input-todo-error"></span></label>
+            <button class="todo__submit-button" type="submit" aria-label="Добавить">Добавить</button>
+        </form>
+        <div class="todo">
+            <div class="element">
+                <h1 class="element__title">Поцеловать Чири</h1>
+                <button class="element__done" type="button"></button>
+                <button class="element__delete" type="button"></button>
+            </div>
+            <div class="element">
+                <h1 class="element__title">Сварить борщик</h1>
+                <button class="element__done" type="button"></button>
+                <button class="element__delete" type="button"></button>
+            </div>
+            <div class="element">
+                <h1 class="element__title">Сделать курсач по сетям</h1>
+                <button class="element__done" type="button"></button>
+                <button class="element__delete" type="button"></button>
+            </div>
+            <div class="element">
+                <h1 class="element__title">Поиграть в нарды</h1>
+                <button class="element__done" type="button"></button>
+                <button class="element__delete" type="button"></button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <h2 class="footer__copyright">© 2023 Procrastination with Yandex Practicum</h2>
+    </footer>
+</body>
+</html>
